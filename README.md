@@ -12,4 +12,6 @@ The training dataset is unbalanced as shown below -
 |Other    | 419   |
 |ND       | 272   |
 
-and a ML practioner might want to augment images in the last two classes (namely, Other and ND) prior to model training. Further, the practitioner may want to evaluate the impact of regularization on the model's performance on test data set. Consequently, the notebook contains code for two types of data augmentations methods (geometric and photometric transformations) and a customized model configuration class for regularization.
+and a ML practioner might want to augment images in the last two classes (namely, Other and ND) prior to model training. Further, the practitioner may want to evaluate the impact of regularization on the model's performance on test data set. 
+
+A preliminary analysis of this data showed that even classes with 4000+ samples had high classification error. Consequently, data transformation (geometric and photometric transformation of images) and not data augmentation was chosen as a preprocessing step and that too for all the classes. The notebooks contain code for various image transformations and customized classes for evaluating the effect of learning rate, regularization (via dropout), and number of epochs on the model's performance.
