@@ -18,4 +18,9 @@ The training dataset is unbalanced as shown below -
 
 and a ML practioner might want to augment images in the last two classes (namely, Other and ND) prior to model training. Further, the practitioner may want to evaluate the impact of regularization on the model's performance on test data set. 
 
-A preliminary analysis of this data showed that even classes with 4000+ samples had high classification error. Consequently, multiple data transformation methods (geometric and photometric transformations) were considered for all the classes. The notebooks contain code for various image transformations and customized classes for evaluating the effect of learning rate, regularization (via dropout), and number of epochs on the model's performance.
+A preliminary analysis of data showed that even classes with 4000+ samples had high classification error. Consequently, data augmentation was considered for all the classes. The notebooks contain code for data augmentation (specifically, geometric and photometric image transformations) and customized classes for evaluating the effect of learning rate, regularization (via dropout), and number of epochs on the model's performance.
+
+<b> Evaluation Summary </b></br>
+A modified version of this code was used to generate the results for evaluation. </br>
+<b> Public Score: 0.687028226 </b></br>
+<b> Bronze Medal winner </b>
