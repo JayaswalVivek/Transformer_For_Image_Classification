@@ -1,6 +1,8 @@
 <h2> Image Classification using SwinV2 Vision Transformer </h2>
 <b> Data Source: Zindi </b></br>
-<b> URL: https://zindi.africa/competitions/cgiar-crop-damage-classification-challenge </b></br></br>
+<b> URL: https://zindi.africa/competitions/cgiar-crop-damage-classification-challenge </b></br>
+<b> Problem Definition: Evaluate images to verify insurance claims of smallholder farmers </b></br>
+<b> Problem Type: Image Classification </b> </br></br>
 
 This code was developed to classify crops into five categories - Good growth (G), Drought (DR), Nutrient Deficient (ND), Weed (WD), and Other. Specifically, a "tiny" Swin transformer V2, which was pretrained on ImageNet-1k data set at 256 x 256 resolution, was fine-tuned using Zindi's data set.
 <br>
