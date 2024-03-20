@@ -22,5 +22,5 @@ A preliminary analysis of data showed that even classes with 4000+ samples had h
 
 <b> Evaluation Summary </b></br>
 A modified version of this code was used to generate the results for evaluation. </br>
-<b> Public Score: 0.687028226 </b></br>
+<b> Public Score: 0.687 </b></br>
 <b> Bronze Medal winner </b>
